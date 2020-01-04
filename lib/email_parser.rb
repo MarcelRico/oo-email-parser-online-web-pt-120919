@@ -14,6 +14,8 @@ class EmailAddressParser
     
     if @emails.include?(",")
       pp @emails.delete(" ").split(",")
+    else
+      pp @emails.split(" ")
     end
     
     
