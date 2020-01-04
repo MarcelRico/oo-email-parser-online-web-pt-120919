@@ -13,7 +13,7 @@ class EmailAddressParser
     
     pp @emails
     
-    email_list = @emails.split(" ").map{|email_address| email_address.delete(",")}.unique
+    email_list = @emails.split(" ").map{|email_address| email_address.delete(",")}.uniq
     
     email_list
   end
