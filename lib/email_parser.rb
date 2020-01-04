@@ -10,7 +10,7 @@ class EmailAddressParser
   end
   
   def parse
-    pp @emails
+    pp @emails.chomp
   end
   
 end
