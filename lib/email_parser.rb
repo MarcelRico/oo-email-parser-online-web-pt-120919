@@ -10,7 +10,9 @@ class EmailAddressParser
   end
   
   def parse
-    pp @emails.chomp
+    email_list = []
+    if @emails.include?(' ')
+      email_list 
   end
   
 end
