@@ -16,6 +16,7 @@ class EmailAddressParser
     else
       email_list = @emails.split(",")
     end
+    email_list
   end
   
 end
