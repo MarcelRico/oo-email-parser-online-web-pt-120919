@@ -13,9 +13,7 @@ class EmailAddressParser
     
     pp @emails
     
-    email_list = nil
-    
-    pp @emails.split(" ").map{|email_address| email_address.delete(",")}
+    email_list = @emails.split(" ").map{|email_address| email_address.delete(",")}
     
     email_list
   end
