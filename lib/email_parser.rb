@@ -10,12 +10,7 @@ class EmailAddressParser
   end
   
   def parse
-    
-    pp @emails
-    
-    email_list = @emails.split(" ").map{|email_address| email_address.delete(",")}.uniq
-    
-    email_list
+    @emails.split(" ").map{|email_address| email_address.delete(",")}.uniq
   end
   
 end
