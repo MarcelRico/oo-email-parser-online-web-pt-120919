@@ -13,7 +13,7 @@ class EmailAddressParser
     email_list = []
     
     if @emails.include?(",")
-      puts @emails.delete(" ").split(",")
+      pp @emails.delete(" ").split(",")
     end
     
     
