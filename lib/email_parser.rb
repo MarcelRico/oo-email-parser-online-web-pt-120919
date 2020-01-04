@@ -10,12 +10,15 @@ class EmailAddressParser
   end
   
   def parse
+    
     email_list = nil
+    
     if @emails.include?(",")
       email_list = @emails.delete(" ").split(",")
     else
       email_list = @emails.split(" ")
     end
+    
     email_list
   end
   
