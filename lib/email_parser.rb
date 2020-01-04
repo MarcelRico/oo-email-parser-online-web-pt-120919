@@ -10,7 +10,7 @@ class EmailAddressParser
   end
   
   def parse
-    puts @emails
+    pp @emails
   end
   
 end
