@@ -11,6 +11,8 @@ class EmailAddressParser
   
   def parse
     
+    pp @emails
+    
     email_list = nil
     
     if @emails.include?(",")
