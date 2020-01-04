@@ -12,7 +12,7 @@ class EmailAddressParser
   def parse
     email_list = []
     if @emails.include?(' ')
-      puts @emails.delete(' ').split(",")
+      pp @emails.delete(' ').split(",")
     end
   end
   
