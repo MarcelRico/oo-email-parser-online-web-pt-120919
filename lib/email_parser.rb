@@ -15,7 +15,7 @@ class EmailAddressParser
     
     email_list = nil
     
-    pp @emails.split(" ")
+    pp @emails.split(" ").delete(",")
     
     email_list
   end
