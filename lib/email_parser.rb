@@ -15,11 +15,7 @@ class EmailAddressParser
     
     email_list = nil
     
-    if @emails.include?(",")
-      email_list = @emails.delete(" ").split(",")
-    else
-      email_list = @emails.split(" ")
-    end
+    pp @emails.split(" ")
     
     email_list
   end
